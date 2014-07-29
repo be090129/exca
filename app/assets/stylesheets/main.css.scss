@@ -4,6 +4,9 @@
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Petit+Formal+Script&subset=latin,latin-ext);
+
+
 
 
 $navbar-default-link-color: #fff;
@@ -64,8 +67,23 @@ a:focus {
     color: #11505d;
 }
 
+
+.navbar-brand {
+  text-align: right;
+
+}
+
 .light {
-    font-weight: 400;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align : left;
+}
+.blight {
+
+  font-size: 2.8rem;
+  font-family: 'Petit Formal Script',cursive;
+  color: #d7bc80;
+  text-transform: none;
 }
 
 
@@ -74,24 +92,25 @@ a:focus {
     text-transform: uppercase;
     font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
+    height:80px;
 }
 
-.navbar-default .navbar-brand {
-    font-weight: 700;
+.navbar-default {
+    
 }
 
-.navbar-default .navbar-brand:focus {
+.navbar-default  {
     outline: 0;
 }
 
-.navbar-default .navbar-brand .navbar-toggle {
+.navbar-default .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
 
 }
 
-.navbar-default .navbar-brand .navbar-toggle:focus,
-.navbar-default .navbar-brand .navbar-toggle:active {
+.navbar-default  .navbar-toggle:focus,
+.navbar-default  .navbar-toggle:active {
     outline: 0;
 }
 
@@ -126,8 +145,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: red;
+    background: url(../images/intro.jpg) no-repeat bottom center scroll;
+    background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -245,7 +264,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+    background-color: #9a927d;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
