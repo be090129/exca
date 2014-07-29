@@ -2,8 +2,11 @@
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+$navbar-default-link-color: #fff;
 
 
 @import 'bootstrap';
@@ -63,6 +66,55 @@ a:focus {
 
 .light {
     font-weight: 400;
+}
+
+
+.navbar-default {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: Raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #000;
+}
+
+.navbar-default .navbar-brand {
+    font-weight: 700;
+}
+
+.navbar-default .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-default .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+
+}
+
+.navbar-default .navbar-brand .navbar-toggle:focus,
+.navbar-default .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+
+.navbar-default .nav li.active {
+    outline: nonte;
+    background-color: #9e8f4a  ;
+
+}
+
+.navbar-default .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus,
+.navbar-default .nav li a.active {
+    outline: 0;
+    background-color: #9e8f4a  ;
+    color : #fff;
+
 }
 
 
