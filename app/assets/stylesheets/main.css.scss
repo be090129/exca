@@ -465,9 +465,29 @@ color: #d7bc80!important;
   color: #d7bc80;
 }
 
+
+
+#download {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../images/downloads-bg.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
+aside.clients img {
+    margin: 50px auto;
+}
+
+
 #portfolio{
 
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 
