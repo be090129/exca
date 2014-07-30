@@ -309,6 +309,13 @@ color: #d7bc80!important;
     margin: 0 0 15px;
 }
 
+#destination h4{
+  font-family: raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+
+}
+
+
 #destination .destination-item .destination-link {
     display: block;
     position: relative;
@@ -366,9 +373,10 @@ color: #d7bc80!important;
 
 #destination .destination-item .destination-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+    font-weight: 300;
 }
 
 #destination * {
@@ -403,9 +411,10 @@ color: #d7bc80!important;
 
 .destination-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+    font-weight: 300;
 }
 
 .destination-modal .modal-content ul.list-inline {
@@ -460,6 +469,7 @@ color: #d7bc80!important;
 
   background-color: #F7F7F7;
 }
+
 
 #portfolio .portfolio-item {
     right: 0;
@@ -523,9 +533,10 @@ color: #d7bc80!important;
 
 #portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+    font-weight: 300;
 }
 
 #portfolio * {
@@ -560,9 +571,10 @@ color: #d7bc80!important;
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: raleway,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
+    font-weight: 300;
 }
 
 .portfolio-modal .modal-content ul.list-inline {
